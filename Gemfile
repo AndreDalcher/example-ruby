@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.5'
+gem 'rails', '5.0.0'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use Uglifier as compressor for JavaScript assets
@@ -42,8 +42,8 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'administrate', '0.1.4'
 
-gem 'sinatra', '1.1.4'
+gem 'sinatra', '2.0.0'
 gem 'festivaltts4r', '0.2.0'
 gem 'spree', '3.0.7'
 gem 'authlogic', '1.4.3'
-gem 'devise_invitable', '1.3.4'
+gem 'devise_invitable', '1.6.0'
