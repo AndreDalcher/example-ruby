@@ -32,7 +32,7 @@ end
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
-  gem 'web-console'
+  gem 'web-console', '>= 3.2.0'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
@@ -46,4 +46,4 @@ gem 'sinatra', '1.1.4'
 gem 'festivaltts4r', '0.2.0'
 gem 'spree', '3.0.7'
 gem 'authlogic', '1.4.3'
-gem 'devise_invitable', '1.3.4'
+gem 'devise_invitable', '1.6.0'
